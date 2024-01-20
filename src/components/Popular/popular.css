@@ -1,0 +1,99 @@
+.popular {
+  margin-bottom: 80px;
+}
+.popular__grid-container {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+  max-height: 410px;
+}
+.popular__grid-block {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+.popular__grid-link {
+  display: block;
+}
+.popular__grid-big {
+  grid-row: span 2;
+}
+.popular__grid-title {
+  color: #fff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.15);
+}
+.popular__grid-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.popular__grid-big,
+.popular__grid-small {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  overflow: hidden;
+  transition: all 0.3s ease 0s;
+}
+.popular__grid-big:hover,
+.popular__grid-small:hover {
+  transform: translate(0, -3%);
+}
+
+.popular__grid-block div {
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.strollers {
+  background-color: rgb(88, 190, 52);
+}
+
+.cot {
+  background-color: rgb(249, 156, 17);
+}
+
+.pots {
+  background-color: rgb(39, 216, 210);
+}
+
+.linens {
+  background-color: rgb(58, 115, 201);
+}
+
+.puzzle {
+  background-color: rgb(204, 60, 60);
+}
+
+.bathtubs {
+  background-color: rgb(142, 58, 208);
+}
+
+@media (max-width: 1200px) {
+  .popular__grid-container {
+    max-height: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media (max-width: 620px) {
+  .popular__grid-block {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .popular__grid-big,
+  .popular__grid-small {
+    height: 180px;
+  }
+  .popular__grid-img {
+    width: 100%;
+    max-width: 180px;
+  }
+}/*# sourceMappingURL=popular.css.map */

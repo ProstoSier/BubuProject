@@ -1,0 +1,64 @@
+.header__actions-btns {
+  display: flex;
+  -moz-column-gap: calc(20px + 10 * (100vw - 480px) / 285);
+       column-gap: calc(20px + 10 * (100vw - 480px) / 285);
+}
+@media (max-width: 480px) {
+  .header__actions-btns {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+}
+@media (min-width: 765px) {
+  .header__actions-btns {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+}
+.header__actions-btn {
+  position: relative;
+}
+.header__actions-btn::before {
+  position: absolute;
+  content: "1";
+  top: 0;
+  right: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  transform: translate(0%, -5%);
+  padding-top: 2px;
+  background-color: #F99C11;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header__actions-icons {
+  display: block;
+  width: 50px;
+  padding-right: 28px;
+}
+.header__actions-icon-search {
+  background: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.socials__inst {
+  width: 100%;
+  max-width: 20px;
+}
+
+@media (max-width: 765px) {
+  .header__actions-icon-search {
+    position: inherit;
+  }
+}/*# sourceMappingURL=headerButtons.css.map */

@@ -1,0 +1,20 @@
+
+.shares__slider {
+    //display: flex;
+    //width: 100%;
+}
+
+#shares__prev,
+#shares__next
+{
+    position: absolute;
+    top: -40px;
+}
+
+#shares__next {
+    right: 0;
+}
+
+#shares__prev {
+    left: 92%;
+}

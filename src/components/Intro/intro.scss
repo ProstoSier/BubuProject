@@ -1,0 +1,10 @@
+.intro {
+    width: 100%;    
+    display: flex;
+    justify-content: end;
+    &__sidebar {
+        min-width: 234px;
+        margin-right: 28px;
+    }
+    margin-bottom: 85px;
+}

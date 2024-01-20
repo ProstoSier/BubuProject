@@ -1,0 +1,21 @@
+.shares {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    &__title {
+        display: flex;
+        //align-items: center;
+        gap: 10px;
+    }
+}
+
+.sale {
+    color: #F99C11;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    background: #FFF0D2;
+}

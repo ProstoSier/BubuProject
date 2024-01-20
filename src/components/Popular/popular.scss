@@ -1,0 +1,120 @@
+.popular {
+    margin-bottom: 80px;
+    &__grid-container {
+        //background-color: red;
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+        max-height: 410px;
+    }
+
+    &__grid-block {
+        display: grid;
+        gap: 30px;     
+        grid-template-columns: 1fr 1fr;                    
+    }
+
+    &__grid-link {
+        display: block;
+    }
+
+    &__grid-big {
+        grid-row: span 2;
+    }
+
+    &__grid-small {
+
+    }
+
+    &__grid-title {
+        color: #fff;
+        font-weight: 400;
+        padding: 10px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.15);
+    }
+
+    &__grid-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.popular__grid-big,
+.popular__grid-small {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    &:hover {
+        transform: translate(0, -3%);
+    }
+}
+
+.popular__grid-block div {
+    border-radius: 20px;    
+    padding: 30px;
+}
+
+.strollers {
+    background-color: rgba(88, 190, 52, 1);
+}
+
+.cot {
+    background-color: rgba(249, 156, 17, 1);
+}
+
+.pots {
+    background-color: rgba(39, 216, 210, 1);
+}
+
+.linens {
+    background-color: rgba(58, 115, 201, 1);
+}
+
+.puzzle {
+    background-color: rgba(204, 60, 60, 1);
+}
+
+.bathtubs {
+    background-color: rgba(142, 58, 208, 1);
+}
+
+@media (max-width: 1200px) {
+    .popular__grid-container {
+        max-height: none;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr)
+    }
+
+    .reverse {
+        
+    }
+}
+
+@media (max-width: 620px) {
+    .popular__grid-block {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .popular__grid-big,
+    .popular__grid-small {
+        height: 180px;
+    }
+
+    .popular__grid-img {
+        width: 100%;
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    
+}

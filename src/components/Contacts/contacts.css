@@ -1,0 +1,63 @@
+.header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header__contacts-tel {
+  white-space: nowrap;
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+  color: #fff;
+}
+.header__contacts-tel::before {
+  transition: width 0.5s;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+}
+.header__contacts-tel:hover {
+  color: #FFC5D6;
+}
+.header__contacts-tel:hover::before {
+  width: 100%;
+  background-color: #FFC5D6;
+}
+
+.tel {
+  white-space: nowrap;
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+  color: #fff;
+}
+.tel::before {
+  transition: width 0.5s;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+}
+.tel:hover {
+  color: #FFC5D6;
+}
+.tel:hover::before {
+  width: 100%;
+  background-color: #FFC5D6;
+}
+
+.email {
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+}
+.email:hover {
+  color: #FFC5D6;
+  text-decoration: underline;
+}/*# sourceMappingURL=contacts.css.map */

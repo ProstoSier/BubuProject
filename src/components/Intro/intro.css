@@ -1,0 +1,10 @@
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 85px;
+}
+.intro__sidebar {
+  min-width: 234px;
+  margin-right: 28px;
+}/*# sourceMappingURL=intro.css.map */

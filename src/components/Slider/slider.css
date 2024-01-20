@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.slider {
+  display: flex;
+  width: 100%;
+  max-width: 1028px;
+  height: 100%;
+  max-height: 568px;
+  margin-top: 30px;
+}
+
+.slick-list {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.slide {
+  display: block;
+  position: relative;
+}
+
+.slide__image {
+  display: block;
+}
+
+.slick-arrow {
+  width: 48px;
+  height: 48px;
+}
+
+.slick-prev,
+.slick-next {
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: absolute;
+  color: #D03664;
+  z-index: 1;
+  background-color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  color: #D03664;
+  background-color: #d3d3d3;
+}
+
+.slick-prev {
+  left: 20px;
+  transform: translateY(-24px) rotate(180deg);
+}
+
+.slick-next {
+  right: 20px;
+}
+
+/* Стили для активных стрелок */
+.slick-prev.slick-disabled,
+.slick-next.slick-disabled {
+  background-color: rgba(255, 255, 255, 0.4862745098);
+  color: rgba(208, 54, 100, 0.4862745098);
+}/*# sourceMappingURL=slider.css.map */

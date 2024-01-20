@@ -1,0 +1,38 @@
+.header {
+    &__buttons-languages {
+        display: flex;
+        align-items: center;
+    }
+
+    &__language {
+        font-size: 14px;
+        font-weight: 700;
+        background: none;
+        position: relative;
+        color: #fff;
+        transition: all 0.3s ease 0s;
+        &:hover {
+            color: #FFC5D6;
+            text-decoration: underline;
+        }
+
+        &:not(:last-child) {
+            padding-right: 9px;
+            &::before {
+                position: absolute;
+                content: "";
+                top: 0;
+                right: 0;
+                width: 1px;
+                height: 100%;
+                background-color: #fff;
+
+            }
+        }
+        &:not(:first-child) {
+            padding-left: 9px;
+        }
+
+    }
+
+}
