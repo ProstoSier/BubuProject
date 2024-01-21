@@ -1,10 +1,19 @@
 .intro {
     width: 100%;    
     display: flex;
-    justify-content: end;
+    //justify-content: end;
     &__sidebar {
+        display: block;
         min-width: 234px;
         margin-right: 28px;
+        padding: 0px 30px 30px;
+        border-radius: 0px 0px 20px 20px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.07);
+        overflow: hidden;
     }
     margin-bottom: 85px;
+    &__slider {
+        width: 100%;
+        max-width: 1028px;
+    }
 }

@@ -7,13 +7,14 @@ import { HeaderLanguages } from '../HeaderLanguages/HeaderLanguages';
 import { HeaderProfile } from '../HeaderProfile/HeaderProfile';
 import { HeaderSearch } from '../HeaderSearch/HeaderSearch';
 import { HeaderButtons } from '../HeaderButtons/HeaderButtons';
+import { Link } from 'react-router-dom';
 
 export function Header() {
     return (
         <header className='header'>
             <div className='header__container'>
                 <div className='header__nav'>
-                    <a className='header__logo' href="/" ><img className='logo__img' src={logo} alt="logo" /></a>
+                    <Link className='header__logo' to={"/"} ><img className='logo__img' src={logo} alt="logo" /></Link>
                     <HeaderMenu/>
                     <div className='header__buttons'>
                         <Contacts/>
@@ -26,9 +27,9 @@ export function Header() {
                         <div className="menu__icon">
                             <span></span>
                         </div>
-                        <h2 className='catalog__title'>
+                        <Link to='/products' className='catalog__title'>
                             Каталог
-                        </h2>
+                        </Link>
                     </div>
                     <a className='header__actions-logo' href="/" ><img className='logo__img' src={logo} alt="logo" /></a>
                     <HeaderSearch/>

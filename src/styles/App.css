@@ -104,12 +104,12 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .main {
+  .main.__container {
     margin-top: 75px;
   }
 }
 @media (max-width: 480px) {
-  .main {
+  .main.__container {
     margin-top: 60px;
   }
 }

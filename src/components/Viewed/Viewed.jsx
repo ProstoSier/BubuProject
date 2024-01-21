@@ -1,4 +1,5 @@
-
+import ViewSlider from "../ViewedSlider/ViewedSlider";
+import './viewed.css';
 
 export function Viewed() {
     return (
@@ -7,7 +8,7 @@ export function Viewed() {
                 Ви переглядали
             </h2>
             <div className="viewed__slider">
-                
+                <ViewSlider/>
             </div>
         </div>
     )
