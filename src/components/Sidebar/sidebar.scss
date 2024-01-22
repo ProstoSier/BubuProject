@@ -1,0 +1,21 @@
+.sidebar {
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 30px;
+        border-top: 1px solid #E1E1E1;
+    }
+
+    &__list-link {
+        color: #000;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        transition: all 0.3s ease 0s;
+        &:hover {
+            color: #414141;
+        }
+    }
+}

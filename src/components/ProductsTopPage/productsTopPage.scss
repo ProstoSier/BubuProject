@@ -1,0 +1,47 @@
+
+.productsTopPage {
+    margin: 25px 0px;
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__pages {
+        margin-bottom: 20px;
+    }
+
+    &__pages-link {
+        color: #D03664;
+        position: relative;
+        padding-right: 13px;
+        &::before {
+            content: '>';
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    &__title {
+        
+    }
+
+    &__nav-list {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__nav-link {
+        color: #585858;
+        text-decoration: underline;
+        transition: all 0.3s ease 0s;
+        &:hover {
+            color: #000;
+            text-decoration: none;
+        }
+        &:active {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}
