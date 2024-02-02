@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BubuProject/static/css/main.dc63a5aa.css",
-    "main.js": "/BubuProject/static/js/main.d53413ca.js",
+    "main.js": "/BubuProject/static/js/main.3dffdb87.js",
     "static/media/intro.jpg": "/BubuProject/static/media/intro.1b629f681ba42d0b86a5.jpg",
     "static/media/bebivita.svg": "/BubuProject/static/media/bebivita.43194219da6c75c733a46f20d784956c.svg",
     "static/media/bed.png": "/BubuProject/static/media/bed.22d30394575592ca15b6.png",
@@ -51,10 +51,10 @@
     "static/media/search.svg": "/BubuProject/static/media/search.cd398de720f0b85cc3e8dcbceff2be1c.svg",
     "static/media/s-inst.svg": "/BubuProject/static/media/s-inst.a10fde5b40b242503e2d3acd26339a47.svg",
     "main.dc63a5aa.css.map": "/BubuProject/static/css/main.dc63a5aa.css.map",
-    "main.d53413ca.js.map": "/BubuProject/static/js/main.d53413ca.js.map"
+    "main.3dffdb87.js.map": "/BubuProject/static/js/main.3dffdb87.js.map"
   },
   "entrypoints": [
     "static/css/main.dc63a5aa.css",
-    "static/js/main.d53413ca.js"
+    "static/js/main.3dffdb87.js"
   ]
 }
